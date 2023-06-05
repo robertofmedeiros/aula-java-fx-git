@@ -44,6 +44,8 @@ public class ClienteController {
 
         this.carregarListaClientes();
 
+        // alteração para teste de commit
+
         tabelaClientes.setOnMouseClicked(new EventHandler<MouseEvent>() {
             public void handle(MouseEvent evt) {
                 if (evt.getClickCount() == 2) {
@@ -54,6 +56,7 @@ public class ClienteController {
                     index = cli.getId();
 
                     documento.setDisable(true);
+                    // alteração para teste de commit
                 }
             }
         });
