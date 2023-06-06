@@ -15,8 +15,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-// teste de pull
-// teste
+// teste de pull teste
+//teste
 @Component
 @FxmlView("/main.fxml")
 public class ClienteController {
@@ -66,6 +66,7 @@ public class ClienteController {
             }
         });
     }
+//31546856 n intdgi
 
     public void executarOk(){
         /*
