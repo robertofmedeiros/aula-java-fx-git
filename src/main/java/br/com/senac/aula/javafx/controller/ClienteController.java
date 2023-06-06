@@ -16,6 +16,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 // teste de pull
+// teste
 @Component
 @FxmlView("/main.fxml")
 public class ClienteController {
