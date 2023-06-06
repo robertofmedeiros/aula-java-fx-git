@@ -46,7 +46,7 @@ public class ClienteController {
         this.carregarListaClientes();
 
         // alteração para teste de commit
-
+        // teste alteração
         tabelaClientes.setOnMouseClicked(new EventHandler<MouseEvent>() {
             public void handle(MouseEvent evt) {
                 if (evt.getClickCount() == 2) {
