@@ -15,13 +15,17 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-// teste de pull
+// teste de pull teste
+//teste
 @Component
 @FxmlView("/main.fxml")
 public class ClienteController {
 
     @FXML
     private TextField nome;
+
+    //teste 2
+    //teste 3
 
     @FXML
     private TextField documento;
@@ -46,7 +50,7 @@ public class ClienteController {
         this.carregarListaClientes();
 
         // alteração para teste de commit
-
+        // teste alteração
         tabelaClientes.setOnMouseClicked(new EventHandler<MouseEvent>() {
             public void handle(MouseEvent evt) {
                 if (evt.getClickCount() == 2) {
@@ -62,6 +66,7 @@ public class ClienteController {
             }
         });
     }
+//31546856 n intdgi
 
     public void executarOk(){
         /*
