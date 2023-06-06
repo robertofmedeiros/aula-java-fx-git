@@ -95,7 +95,7 @@ public class ClienteController {
 
         this.carregarListaClientes();
 
-        this.limparCampos();
+        //this.limparCampos();
 
     }
 
