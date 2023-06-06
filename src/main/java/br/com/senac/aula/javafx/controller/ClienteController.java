@@ -111,7 +111,7 @@ public class ClienteController {
             this.carregarListaClientes();
             index = -1;
             this.limparCampos();
-        }
+        } //Alteração
     }
 
     public void limparCampos(){
