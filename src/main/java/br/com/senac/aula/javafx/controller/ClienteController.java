@@ -14,7 +14,7 @@ import net.rgielen.fxweaver.core.FxmlView;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+// Teste 2
 // teste de pull
 @Component
 @FxmlView("/main.fxml")
