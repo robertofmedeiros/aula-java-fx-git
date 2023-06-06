@@ -111,7 +111,7 @@ public class ClienteController {
             this.carregarListaClientes();
             index = -1;
             this.limparCampos();
-        } //Alteração
+        } //Alteração simples - GitPush by PedroHenriqueR
     }
 
     public void limparCampos(){
