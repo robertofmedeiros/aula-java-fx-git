@@ -50,6 +50,7 @@ public class ClienteController {
 
         // alteração para teste de commit
         // teste alteração
+        // teste alteração my branches 2
         tabelaClientes.setOnMouseClicked(new EventHandler<MouseEvent>() {
             public void handle(MouseEvent evt) {
                 if (evt.getClickCount() == 2) {
