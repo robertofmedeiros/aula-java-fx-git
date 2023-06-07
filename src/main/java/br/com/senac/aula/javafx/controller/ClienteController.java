@@ -69,6 +69,7 @@ public class ClienteController {
     }
 //31546856 n intdgi
 
+
     public void executarOk(){
         /*
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -123,6 +124,7 @@ public class ClienteController {
 
         documento.setDisable(false);
     }
+    /* - Something something something DARKSIDE something something something COMPLETE! */
 
     public void carregarListaClientes(){
 
