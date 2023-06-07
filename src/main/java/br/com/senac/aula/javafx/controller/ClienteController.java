@@ -22,12 +22,11 @@ public class ClienteController {
 
     @FXML
     private TextField nome;
-
     //teste 2
 
     @FXML
     private TextField documento;
-
+    // comentário lrm-02
     @FXML
     private TableView<Cliente> tabelaClientes;
 
