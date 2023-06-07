@@ -21,7 +21,7 @@
          <children>
             <TableView fx:id="tabelaClientes" layoutX="-3.0" layoutY="-3.0" prefHeight="200.0" prefWidth="518.0">
               <columns>
-                <TableColumn fx:id="colunaNome" prefWidth="75.0" text="Nome" />
+                <TableColumn fx:id="colunaNome" prefWidth="75.0" text="Nome Cliente" />
                 <TableColumn fx:id="colunaDocumento" prefWidth="369.0" text="Documento" />
                   <TableColumn prefWidth="75.0" text="Column X" />
               </columns>
