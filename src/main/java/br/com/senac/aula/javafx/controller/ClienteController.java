@@ -23,10 +23,7 @@ public class ClienteController {
 
     @FXML
     private TextField nome;
-
-    //teste 2
-    //teste 3
-    //teste 4
+//testea
 
     @FXML
     private TextField documento;
