@@ -26,6 +26,7 @@ public class ClienteController {
 
     //teste 2
     //teste 3
+    //teste 4
 
     @FXML
     private TextField documento;
@@ -99,6 +100,8 @@ public class ClienteController {
         }
 
         this.carregarListaClientes();
+
+        // novo comnetario
 
         this.limparCampos();
 
