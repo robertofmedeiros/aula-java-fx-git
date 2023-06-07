@@ -25,6 +25,7 @@ public class ClienteController {
     private TextField nome;
 
     //teste 2
+    //teste 6
 
     @FXML
     private TextField documento;
@@ -39,7 +40,6 @@ public class ClienteController {
     private TableColumn<Cliente, String> colunaDocumento;
 
     private int index = -1;
-
 
     @FXML
     public void initialize() {
@@ -101,7 +101,7 @@ public class ClienteController {
         this.limparCampos();
 
     }
-
+  //teste 5
     public void executarExcluir(){
         if(index > -1){
             //tabelaClientes.getItems().remove(index);
