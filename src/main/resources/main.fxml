@@ -13,6 +13,7 @@
             <TextField fx:id="nome" layoutX="14.0" layoutY="38.0" prefHeight="25.0" prefWidth="509.0" />
             <Label layoutX="17.0" layoutY="80.0" text="Documento:*" />
             <TextField fx:id="documento" layoutX="17.0" layoutY="97.0" prefHeight="25.0" prefWidth="509.0" />
+<<<<<<< HEAD
             <Button fx:id="btnOk" layoutX="21.0" layoutY="144.0" mnemonicParsing="false" onAction="#executarOk" text="Ok" />
 <<<<<<< HEAD
             <Button fx:id="btnExcluir" layoutX="72.0" layoutY="143.0" mnemonicParsing="false" onAction="#executarExcluir" text="Excluir" />
@@ -20,6 +21,10 @@
 =======
             <Button fx:id="btnExcluir" layoutX="72.0" layoutY="143.0" mnemonicParsing="false" onAction="#executarExcluir" text="Remover" />
 >>>>>>> 0b486a25d93c7e6689b8b51706842e8e7a371b74
+=======
+            <Button fx:id="btnOk" layoutX="21.0" layoutY="141.0" mnemonicParsing="false" onAction="#executarOk" text="Salvar" />
+            <Button fx:id="btnExcluir" layoutX="102.0" layoutY="143.0" mnemonicParsing="false" onAction="#executarExcluir" text="Excluir" />
+>>>>>>> ATS-5
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
