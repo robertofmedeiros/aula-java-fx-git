@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AulaJavafxApplication {
 
 	public static void main(String[] args) {
+
 		Application.launch(JavaFxApplication.class, args);
 	}
 

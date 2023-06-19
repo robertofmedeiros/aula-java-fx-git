@@ -14,7 +14,8 @@ import net.rgielen.fxweaver.core.FxmlView;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+// Teste 2
+// teste de pull
 // teste de pull teste
 //teste
 @Component
@@ -52,6 +53,7 @@ public class ClienteController {
 
         // alteração para teste de commit
         // teste alteração
+        // teste alteração my branches 2
         tabelaClientes.setOnMouseClicked(new EventHandler<MouseEvent>() {
             public void handle(MouseEvent evt) {
                 if (evt.getClickCount() == 2) {
@@ -67,8 +69,6 @@ public class ClienteController {
             }
         });
     }
-//31546856 n intdgi
-
     public void executarOk(){
         /*
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -114,9 +114,12 @@ public class ClienteController {
             this.carregarListaClientes();
             index = -1;
             this.limparCampos();
-        }
+        } //Alteração simples - GitPush by PedroHenriqueR
     }
 
+    public void executarAtualizar() {
+
+    }
     public void limparCampos(){
         nome.setText("");
         documento.setText("");
